@@ -1,4 +1,3 @@
-/* Google Fonts 読み込み */
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 .box{
@@ -11,26 +10,21 @@
   text-align: center;
 }
 
-/* 時計の共通スタイル */
 .clock {
   font-family: 'VT323', monospace;
   color: #0099FF;
-  text-shadow: 0 0 20px #FFFFFF;
   line-height: 1.2;
   text-align: center;
 }
 
-/* 日付のスタイル */
 .clock-date {
   font-size: 25px;
 }
 
-/* 時間のスタイル */
 .clock-time {
   font-size: 100px;
 }
 
-/* 文字サイズ調整 */
 @media screen and (max-width: 500px) {
   .clock-date {
     font-size: 5vw;
